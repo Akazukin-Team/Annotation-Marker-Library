@@ -6,13 +6,14 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that a field serves as an identifier.
- * This annotation is typically used to mark fields
- * that uniquely identify an object or entity within a system.
+ * Marks a field as an identifier.
  * <p>
- * The retention policy is set to CLASS, meaning this annotation will
- * be present in the compiled class file but will not be available at runtime
- * via reflection. It can only be applied to fields.
+ * A identifier field is generally treat as immutable.
+ * This annotation serves as a documentation tool to indicate an identifier in design
+ * but does not enforce or guarantee as an identifier or immutable at runtime.
+ * <p>
+ * This annotation is retained in the compiled class files
+ * but is not accessible at runtime via reflection.
  */
 @Retention(RetentionPolicy.CLASS)
 @Target({ElementType.FIELD})

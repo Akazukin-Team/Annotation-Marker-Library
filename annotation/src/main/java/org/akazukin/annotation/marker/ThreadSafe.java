@@ -6,18 +6,17 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that a class is thread-safe.
+ * Marks a class, method, or field as thread-safe.
  * <p>
- * A thread-safe class ensures that its instances can be used safely by multiple
- * threads concurrently without the need for external synchronization. This annotation
- * serves as a marker to convey thread safety at the design level and is primarily for
- * documentation purposes. It does not enforce thread-safety at runtime or compile time.
+ * A thread-safe class or element can be accessed by multiple threads concurrently
+ * without requiring external synchronization.
+ * This annotation serves as a documentation tool to indicate thread safety in design
+ * but does not enforce or guarantee thread safety at runtime.
  * <p>
- * The retention policy is set to CLASS, meaning this annotation will be present in
- * the compiled class file but will not be available at runtime via reflection.
- * It can only be applied to types.
+ * This annotation is retained in the compiled class files
+ * but is not accessible at runtime via reflection.
  */
 @Retention(RetentionPolicy.CLASS)
-@Target({ElementType.TYPE})
+@Target({ElementType.TYPE, ElementType.METHOD, ElementType.FIELD})
 public @interface ThreadSafe {
 }
