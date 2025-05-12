@@ -22,7 +22,7 @@ A Java library for marking using annotations in code.
 
 ## Features
 
-- <PLACEHOLDER_FEATURES>
+- Add custom marking annotations to your code.
 
 ---
 
