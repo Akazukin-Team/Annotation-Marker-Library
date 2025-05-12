@@ -1,8 +1,8 @@
-# <PLACEHOLDER_NAME>
+# Annotation Marker Library
 
-[![Build Status](https://github.com/Akazukin-Team/<PLACEHOLDER_REPO>/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Akazukin-Team/<PLACEHOLDER_REPO>/actions/workflows/build.yml?query=branch:main)
+[![Build Status](https://github.com/Akazukin-Team/Annotation-Marker-Library/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Akazukin-Team/Annotation-Marker-Library/actions/workflows/build.yml?query=branch:main)
 
-<PLACEHOLDER_DESCRIPTION>
+A Java library for marking using annotations in code.
 
 ---
 
@@ -53,7 +53,7 @@ Make sure you have the following installed:
     ```xml
     <dependency>
         <groupId>org.akazukin</groupId>
-        <artifactId><PLACEHOLDER_ARTIFACT></artifactId>
+        <artifactId>annotation-marker</artifactId>
         <version>VERSION</version>
     </dependency>
     ```
@@ -72,7 +72,7 @@ Make sure you have the following installed:
 
 2. Add the dependency to the `dependencies` block in your `build.gradle` file:
     ```groovy
-    implementation 'org.akazukin:<PLACEHOLDER_ARTIFACT>:<VERSION>'
+    implementation 'org.akazukin:annotation-marker:<VERSION>'
     ```
 
 ---
@@ -90,8 +90,8 @@ To build the project from source, follow these steps:
 
 1. Clone the repository:
     ```shell
-    git clone https://github.com/Akazukin-Team/<PLACEHOLDER_REPO>.git
-    cd <PLACEHOLDER_REPO>
+    git clone https://github.com/Akazukin-Team/Annotation-Marker-Library.git
+    cd Annotation-Marker-Library
     ```
 
 2. Build the project with Gradle:

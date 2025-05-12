@@ -1,0 +1,4 @@
+plugins {
+    id 'buildlogic.java-manifest-conventions'
+    id 'buildlogic.java-maven-conventions'
+}
