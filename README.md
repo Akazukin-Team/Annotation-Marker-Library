@@ -4,6 +4,7 @@
 
 A Java library for marking using annotations in code.
 
+
 ---
 
 ## Table of Contents
@@ -82,6 +83,7 @@ Make sure you have the following installed:
 Please read the [Contribution Guide](./.github/CONTRIBUTING.md) carefully and follow the coding conventions and
 guidelines when making your changes.
 
+
 ---
 
 ## Build Instructions
@@ -113,11 +115,13 @@ To build the project from source, follow these steps:
 This project uses GitHub Actions for Continuous Integration (CI).
 Every push to the `main` branch automatically triggers the build and test workflow.
 
+
 ---
 
 ## License
 
 This project is licensed under the terms described in the [License](LICENSE) file.
+
 
 ---
 
