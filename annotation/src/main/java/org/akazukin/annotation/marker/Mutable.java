@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
  * This annotation is retained in the compiled class files
  * but is not accessible at runtime via reflection.
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.SOURCE)
 @Target({ElementType.TYPE, ElementType.FIELD})
 public @interface Mutable {
 }
