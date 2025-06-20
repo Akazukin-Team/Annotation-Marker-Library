@@ -1,4 +1,4 @@
 plugins {
-    id 'buildlogic.java-manifest-conventions'
-    id 'buildlogic.java-maven-conventions'
+    id 'buildlogic.java-publish-conventions'
+    id 'buildlogic.java-module-conventions'
 }
