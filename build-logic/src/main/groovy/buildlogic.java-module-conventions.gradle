@@ -1,0 +1,8 @@
+plugins {
+    id 'buildlogic.java-common-conventions'
+}
+
+dependencies {
+    compileOnly libs.jetbrains.annotations
+    annotationProcessor libs.jetbrains.annotations
+}

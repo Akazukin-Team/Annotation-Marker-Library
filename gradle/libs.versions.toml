@@ -1,8 +1,14 @@
 [versions]
+# App deps
+jetbrains-annotation = "26.0.2"
+
 #Gradle Plugin
 gradle-versions = "0.52.0"
 
 
 [libraries]
+# App deps
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrains-annotation" }
+
 #Gradle Plugin
 gradle-versions = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "gradle-versions" }
