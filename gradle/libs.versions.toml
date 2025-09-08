@@ -1,6 +1,6 @@
 [versions]
 # App deps
-jetbrains-annotation = "26.0.2"
+jetbrains-annotation = "26.0.2-1"
 
 #Gradle Plugin
 gradle-versions = "0.52.0"
